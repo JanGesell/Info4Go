@@ -9,6 +9,7 @@ background: ;
 height: 100%;
 }
 #sidebar {
+margin-left:-210px;
 position: fixed;
 left: 0px;
 top:0px;
@@ -37,37 +38,36 @@ letter-spacing: 0.05em;
   transform:scale(1.11);
   transition: 0.3s;
 }
-#content {
-min-height: 100%;
-margin-left: 220px;
-padding: 10px;
-}
+#sidebar:hover{transform:translateX(210px);
+  transition:0.5s;}
 ul li {  
   color: #B9B9BA;
-  font-family: 'Anton', sans-serif;
+  font-family:  'Anton', cursive;
   border: 1px solid white;
   padding-left: 5%
 }
 h1 {
-  position: absolute;
-  margin-left: 25%;
+  position: relativ;
+  margin-left: 35%;
   margin-top: 0%;
   font-size: 50px;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Anton', cursive;
   letter-spacing: 10px;
   text-shadow: 4px 3px 0px rgba(0,0,0, 0.2);
 }
 #text {
-  position: relativ;
-  margin-top: 100px;
-  margin-left: 1%;
+  position: absolute;
+  margin-top: static;
+  margin-left:30%;
+  width: 500px;
+  min-height: 100%;
   background: #223C45;
   padding-top: 10px;
-  padding-left: 20px;
+  padding-left: 10px;
   padding-bottom: 10px;
-  border-radius: 5px;
+  border-radius: 1px;
+  color: white;
 }
 a {color: #B9B9BA;}
 a:hover{color: white;}
 a {text-decoration:none;}
-
