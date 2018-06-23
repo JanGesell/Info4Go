@@ -2,7 +2,7 @@ html {
 margin: 0px;padding: 0px;
 min-height: 100%;
 background: #E8F6FC;
-background-image: src="guitar-1063083.jpg";
+background-image: url("guitar-1063083.jpg")
 }
 body {
 margin:0; padding:0;
