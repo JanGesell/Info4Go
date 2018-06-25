@@ -1,15 +1,14 @@
 html {
 margin: 0px;padding: 0px;
 min-height: 100%;
-background: #E8F6FC;
+background: #000;
+background-image:url(https://github.com/JanGesell/Info4Go/blob/master/guitar-1063083.jpg?raw=true);
+background-size: cover;
+background-attachment: fixed;
 }
 body {
 margin:0; padding:0;
-background: ;
-height: 100%;
-background-image: url("guitar-1063083.jpg");
 }
-
 #sidebar {
 margin-left:-210px;
 position: fixed;
@@ -42,34 +41,136 @@ letter-spacing: 0.05em;
 }
 #sidebar:hover{transform:translateX(210px);
   transition:0.5s;}
-ul li {  
+#sidebar ul li {  
   color: #B9B9BA;
   font-family:  'Anton', cursive;
   border: 1px solid white;
   padding-left: 5%
 }
-h1 {
-  position: relativ;
-  margin-left: 35%;
-  margin-top: 0%;
+#heading {
+  text-align: center;
   font-size: 50px;
   font-family: 'Anton', cursive;
   letter-spacing: 10px;
   text-shadow: 4px 3px 0px rgba(0,0,0, 0.2);
 }
-#text {
-  position: absolute;
-  margin-top: static;
-  margin-left:30%;
-  width: 500px;
+#bodytext {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
   min-height: 100%;
-  background: #223C45;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
+  background: rgba(0,0,0,0.8);
+  padding: 1%;
   border-radius: 1px;
   color: white;
+  letter-spacing: 1px;
+  opacity: 1;
 }
-a {color: #B9B9BA;}
-a:hover{color: white;}
-a {text-decoration:none;}
+
+.text {
+  margin-left: 10px;
+  margin-bottom: 80px;
+  opacity: 1;
+  font-family: arial;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+#sidebar a {color: #B9B9BA;}
+#sidebar a:hover{color: white;}
+#sidebar a {text-decoration:none;}
+
+
+#sidebarheading {
+  color: white;
+  font-family: anton;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  margin-top: 0;
+  text-align: center;
+}
+
+#bild1 {
+  height: auto;
+  width: 40%;
+  float:right;
+  margin: 20px;
+  opacity: 1;
+  border: 2px solid white;
+}
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+  opacity: 1; 
+}
+
+#bodytext a {
+  text-decoration: none;
+  color: grey;
+}
+
+#bodytext a:hover {
+  color: white;
+  background: grey;
+}
+
+#bild2 {
+  height: auto;
+  width: 14%;
+  float: right;
+  margin-right: 100px;
+  border: 3px solid grey;
+}
+
+#ul_aufbau li {
+  list-style: none;
+  text-align: left;
+}
+
+#kopfplatte {
+  font-size: 20px;
+  color: grey;
+}
+
+#hals {
+  font-size: 20px;
+  color: grey;
+}
+
+#korpus {
+  font-size: 20px;
+  color: grey;
+}
+
+#gitarrensaiten {
+  font-size: 20px;
+  color: grey;
+}
+
+#table1 {
+  width: 100%;
+  border: 2px solid white;
+  text-align: center;
+  padding: 10px;
+}
+
+#table1 th {
+  border: 1px solid white;
+  padding: 5px;
+}
+
+#table1 td {
+  padding-top: 10px;
+  border-bottom: 1px dashed #555;
+}
+
+#table1 tr:last-child td {
+  border-bottom: 0px;
+}
+
+@media(max-width: 600px) {
+  #table1 tr th:first-child,
+  #table1 tr td:first-child {
+    display: none;
+  }
+}
