@@ -17,7 +17,7 @@ top:0px;
 bottom: 0px;
 padding: 10px;
 width: 200px;
-background: #19142D;
+background: rgba(0,0,0, 0.95);
 }
 #sidebar ul {
 list-style: none;
@@ -34,7 +34,7 @@ letter-spacing: 0.05em;
 #sidebar ul li:hover {cursor: pointer;}
 #sidebar ul li:hover span {color: white;}
 #sidebar ul li:hover {line-height: 2}
-#sidebar ul li:hover {background-image: linear-gradient(225deg, #19142D 30%, #19234D 70%);}
+#sidebar ul li:hover {background-image: linear-gradient(225deg, #19142D 30%, #1d1d1d 70%);}
 #sidebar ul li:hover {
   transform:scale(1.11);
   transition: 0.3s;
