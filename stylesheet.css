@@ -174,3 +174,9 @@ h2 {
     display: none;
   }
 }
+
+#quellen a:hover {cursor: pointer;}
+#quellen a {
+  font-size: 20px;
+  text-align: center;
+}
